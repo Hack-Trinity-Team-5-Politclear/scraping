@@ -64,7 +64,7 @@ def gpt4summarise(text):
 
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer <TOKEN>'
     }
 
     response = requests.request("POST", url, headers=headers, data=payload)
